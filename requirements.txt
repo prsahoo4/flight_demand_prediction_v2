@@ -1,5 +1,7 @@
   
 appdirs
+certifi
+click
 distlib
 Flask
 Flask-Cors
@@ -7,8 +9,15 @@ gunicorn
 itsdangerous
 Jinja2
 joblib
+MarkupSafe
 numpy
 pandas
+python-dateutil
+pytz
 scikit-learn
 scipy
+six
+virtualenv
+Werkzeug
+wincertstore
 catboost
