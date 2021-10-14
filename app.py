@@ -8,7 +8,7 @@ app = Flask(__name__)
 # loading DS operations and files
 
 # load models
-model_catboost = joblib.load("models/CatBoostRegressor.pkl")
+#model_catboost = joblib.load("models/CatBoostRegressor.pkl")
 model_xgboost = joblib.load("models/XGBoostRegressor.pkl")
 
 

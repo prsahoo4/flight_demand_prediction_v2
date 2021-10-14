@@ -12,9 +12,13 @@ joblib
 MarkupSafe
 numpy
 pandas
+python-dateutil
 pytz
 scikit-learn
 mkl
 scipy
+six
 virtualenv
+Werkzeug
+wincertstore
 catboost
