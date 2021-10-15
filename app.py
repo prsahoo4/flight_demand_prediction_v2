@@ -2,6 +2,7 @@ from pyforest import *
 import joblib
 from flask import Flask, request, jsonify, render_template
 from datetime import datetime
+from flask_cors import cross_origin
 
 app = Flask(__name__)
 
@@ -13,11 +14,13 @@ model_xgboost = joblib.load("models/XGBoostRegressor.pkl")
 
 
 @app.route("/")
+@cross_origin()
 def home():
     return render_template("flask.html")
 
 
 @app.route("/predict", methods=['POST'])
+@cross_origin()
 def predict():
     # feature extraction
     #features = [x for x in request.form.values()]

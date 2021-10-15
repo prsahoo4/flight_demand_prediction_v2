@@ -3,8 +3,8 @@ appdirs
 certifi
 click
 distlib
-Flask
-Flask-Cors
+Flask==1.1.2
+Flask-Cors==3.0.8
 gunicorn
 itsdangerous
 Jinja2
@@ -20,4 +20,4 @@ six
 virtualenv
 Werkzeug
 wincertstore
-catboost
+catboost>=0.2
